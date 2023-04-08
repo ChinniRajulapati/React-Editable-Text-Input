@@ -1,0 +1,52 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5d0fe;
+  height: 100vh;
+}
+
+.innerContainer {
+  height: 40vh;
+  width: 40vw;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3vh;
+}
+
+.editableContainer {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-element {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.heading {
+  font-size: 30px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+.btn {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-width: 0;
+  background-color: #d946ef;
+  color: #ffffff;
+}
